@@ -1,14 +1,33 @@
-Notas:
+# Notas:
 
-```git reset --soft [commit]``` , reseta los cambios pero los deja en el working directorie solo hace falta hacer commit 
+#### reseta los cambios pero los deja en el working directorie solo hace falta hacer commit 
+```git reset --soft [commit]``` , 
 
-```git reset --mixed [commit] ``` , resetea los cambios y los quita del working direcorie hay que hacer ```git add``` una vez mas
+#### resetea los cambios y los quita del working direcorie hay que hacer ```git add``` una vez mas
+```git reset --mixed [commit] ```  
 
-
+#### retorna el head un commit deshaciendo el ultimo commit 
 ```
 git reset HEAD^
 ```
-retorna el head un commit deshaciendo el ultimo commit 
+
+#### Muestra todos los commit incluso tras un reset hard
+```
+git log --reflog
+```
+
+#### Configurar variables de git 
+```
+git config --global #variable de forma global
+
+git config --local #variable solo en este repositorio
+```
+
+#### Configurar code como editor
+git config --global core.editor "code --wait"
+
+
+
 
 
 # GIT SUPERLOG
