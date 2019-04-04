@@ -62,3 +62,17 @@ git merge [rama]: Nos permite mezclar los cambios realizados en dicha rama con l
 fast-forward: los mezcla automáticamente
 recursive/auto-merging: ambas ramas salieron al mismo tiempo y hay algo nuevo en la rama que la otra no recuerda, por eso hace la mezcla recursiva.
 manual merge: nos va a tocar decirle a git específicamente los cambios que queremos mezclar
+
+# git rebase
+es peligroso y solo deberia aplicarse en local
+
+git rebase: hace prácticamente lo mismo que merge, cambiamos la historia de nuestro proyecto sin crear bifurcaciones del proyecto. Es mejor usar merge
+Usar solo git rebase de manera local.
+```
+git rebase [branch name]
+```
+
+-i: de manera interactiva, nos abrira el editor que tengamos definido en la configuración de git.
+```
+git rebase -i [branch name]
+```
