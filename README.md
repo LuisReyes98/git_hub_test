@@ -26,13 +26,21 @@ git config --local #variable solo en este repositorio
 #### Configurar code como editor
 git config --global core.editor "code --wait"
 
-
-
-
-
 # GIT SUPERLOG
 ```
 git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+```
+
+
+#### Crear ramas
+```
+git brach [nombre]
+```
+
+#### Cambiar nombre de ramas
+```
+git branch -m responsive RD
+
 ```
 
 #### checkout
@@ -48,3 +56,9 @@ y luego
 ```
 git merge [branch name]
 ```
+
+git merge [rama]: Nos permite mezclar los cambios realizados en dicha rama con la rama en la que estamos.
+
+fast-forward: los mezcla automáticamente
+recursive/auto-merging: ambas ramas salieron al mismo tiempo y hay algo nuevo en la rama que la otra no recuerda, por eso hace la mezcla recursiva.
+manual merge: nos va a tocar decirle a git específicamente los cambios que queremos mezclar
