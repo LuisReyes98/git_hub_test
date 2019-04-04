@@ -40,3 +40,11 @@ git config --global alias.superlog "log --graph --abbrev-commit --decorate --dat
 ```
 git checkout [branch name | commit]
 ```
+
+##### merge
+
+teniendo dos ramas debo hacer checkout a la rama que quiero que reciba los datos 
+y luego
+```
+git merge [branch name]
+```
