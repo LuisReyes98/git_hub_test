@@ -89,3 +89,41 @@ Te permite extraer un unico commit y aplicar sus cambios en la rama actual
 ```
 git cherry-pick [commit hash]
 ```
+
+<<<<<<< HEAD
+## GIT HUB
+
+#### remote 
+
+Añadir primer remoto
+```
+git remote add origin [ssh/https]
+```
+ver version 
+```
+git remote -v
+```
+eleminar remote
+```
+git remote remove [name]
+```
+
+#### pull y fetch 
+
+traer datos con pull 
+```
+git pull origin master
+```
+
+traer datos con fetch 
+```
+git fetch origin master 
+```
+y luego 
+```
+git merge origin/master
+```
+
+=======
+# GIT HUB
+>>>>>>> 7896c3ee69541e8ce394205651f2f44fb86e36a1

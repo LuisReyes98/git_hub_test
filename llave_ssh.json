@@ -1,0 +1,8 @@
+{
+  "1170-git-github-2017/8463-anadiendo-una-llave-ssh-a-github/":{
+    "1:45": {
+      "text": "ssh-keygen -t rsa -b 4096 -C 'tuemail@email.com' ",
+      "action": "clipboard"
+    }
+  }
+}
