@@ -90,7 +90,6 @@ Te permite extraer un unico commit y aplicar sus cambios en la rama actual
 git cherry-pick [commit hash]
 ```
 
-<<<<<<< HEAD
 ## GIT HUB
 
 #### remote 
@@ -124,6 +123,3 @@ y luego
 git merge origin/master
 ```
 
-=======
-# GIT HUB
->>>>>>> 7896c3ee69541e8ce394205651f2f44fb86e36a1
