@@ -6,10 +6,10 @@
 
 #### git reset
 
-reseta los cambios pero los deja en el working directorie solo hace falta hacer commit 
+reseta los cambios pero los deja en el working directorie solo hace falta hacer commit
 ```git reset --soft [commit]```.
 
-resetea los cambios y los quita del working direcorie hay que hacer ```git add``` una vez mas 
+resetea los cambios y los quita del working direcorie hay que hacer ```git add``` una vez mas
 ```git reset --mixed [commit]```  
 
 retorna el head un commit deshaciendo el ultimo commit
